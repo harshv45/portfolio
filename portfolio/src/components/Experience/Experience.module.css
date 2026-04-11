@@ -1,0 +1,193 @@
+.section {
+  padding: var(--section-padding);
+  background: rgba(0, 230, 180, 0.02);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.timeline {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.timelineLine {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  bottom: 8px;
+  width: 1px;
+  background: linear-gradient(180deg, var(--accent), rgba(0, 230, 180, 0.1));
+}
+
+.timelineItems {
+  padding-left: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.timelineItem {
+  position: relative;
+}
+
+.timelineDot {
+  position: absolute;
+  left: -34px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(0, 230, 180, 0.4);
+  border: 2px solid var(--bg-primary);
+}
+
+.timelineDotActive {
+  background: var(--accent);
+  box-shadow: 0 0 12px var(--accent);
+}
+
+.jobHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.jobTitle {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--text-primary);
+  margin: 0 0 0.2rem;
+}
+
+.jobCompany {
+  font-family: var(--font-mono);
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+
+.jobLocation {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+
+.jobMeta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.currentBadge {
+  padding: 0.2rem 0.6rem;
+  background: rgba(0, 230, 180, 0.15);
+  border: 1px solid rgba(0, 230, 180, 0.4);
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+}
+
+.jobPeriod {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.bullet {
+  display: flex;
+  gap: 0.75rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+.bulletArrow {
+  color: var(--accent);
+  flex-shrink: 0;
+  margin-top: 0.05rem;
+}
+
+.educationCard,
+.certCard {
+  padding: 2rem;
+  border: 1px solid rgba(0, 230, 180, 0.2);
+  background: rgba(0, 230, 180, 0.03);
+  margin-bottom: 1.5rem;
+}
+
+.eduLabel {
+  font-family: var(--font-mono);
+  color: var(--accent);
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.75rem;
+}
+
+.eduContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.eduDegree {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin: 0 0 0.3rem;
+}
+
+.eduInstitution {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.9rem;
+}
+
+.eduCoursework {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+  font-family: var(--font-mono);
+}
+
+.eduPeriod {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.certList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.certItem {
+  display: flex;
+  gap: 0.75rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}

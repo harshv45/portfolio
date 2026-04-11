@@ -1,0 +1,22 @@
+.label {
+  font-family: var(--font-mono);
+  color: var(--accent);
+  font-size: 0.78rem;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5rem;
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--text-primary);
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  margin-bottom: 3rem;
+  max-width: 500px;
+}
