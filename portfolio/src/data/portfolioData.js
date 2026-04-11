@@ -1,7 +1,7 @@
 export const NAV_LINKS = ["About", "Skills", "Experience", "Projects", "Connect"];
 
 export const PERSONAL_INFO = {
-  name: "Harshvardhan Singh",
+  name: "Harsh vardhan Singh",
   title: "Full Stack & Backend Developer",
   tagline: "I build production-grade backend systems and full-stack applications — from architecting .NET APIs to crafting responsive React UIs.",
   location: "Indore, India",

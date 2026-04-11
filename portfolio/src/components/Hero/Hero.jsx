@@ -37,11 +37,13 @@ export default function Hero() {
         <div className={styles.label}>&gt; HELLO, WORLD — I AM</div>
 
         <h1 className={styles.name}>
-          {PERSONAL_INFO.name.split(" ")[0]}
-          <br />
-          <span className={styles.nameAccent}>
-            {PERSONAL_INFO.name.split(" ")[1]}
-          </span>
+          {/* On small screens: "Harsh" + space + "vardhan" wraps to 3 lines  */}
+          {/* On large screens: span merges them into "Harshvardhan" via CSS   */}
+          <span className={styles.firstName}>
+            <span className={styles.namePart1}>Harsh</span>
+            <span className={styles.namePart2}>vardhan</span>
+          </span>{" "}
+          <span className={styles.nameAccent}>Singh</span>
         </h1>
 
         <div className={styles.typewriter}>

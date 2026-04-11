@@ -169,3 +169,23 @@
   font-size: 0.7rem;
   font-weight: 700;
 }
+
+.firstName {
+  display: inline;
+  white-space: nowrap;
+}
+ 
+.namePart1,
+.namePart2 {
+  display: inline;
+}
+ 
+/* Small screens: show the space between Harsh and vardhan */
+@media (max-width: 575px) {
+  .firstName {
+    white-space: normal;
+  }
+  .namePart1::after {
+    content: " ";
+  }
+}
