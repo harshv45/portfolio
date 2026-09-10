@@ -1,4 +1,4 @@
-export const NAV_LINKS = ["About", "Skills", "Experience", "Projects", "Connect"];
+export const NAV_LINKS = ["About", "Skills", "Experience", "Projects", "Connect", "Resume"];
 
 export const PERSONAL_INFO = {
   name: "Harsh vardhan Singh",
@@ -11,6 +11,9 @@ export const PERSONAL_INFO = {
   linkedinDisplay: "linkedin.com/in/harshvardhansingh45",
   github: "https://github.com/harshv45",
   githubDisplay: "github.com/harshv45",
+  leetcode: "https://leetcode.com/u/harshvardhansingh451112/",
+  leetcodeDisplay: "leetcode.com/harshvardhansingh451112",
+  resume: "https://drive.google.com/file/d/1au6nCiwXu49IBqA9ebiXeK_25dCOOqdY/view?usp=drive_link",
 };
 
 export const SKILLS = [
@@ -19,7 +22,7 @@ export const SKILLS = [
   { category: "Frontend", items: ["React.js", "Responsive Design", "Styled Components", "Bootstrap", "TypeScript"] },
   { category: "Databases", items: ["SQL Server", "PostgreSQL", "MongoDB", "Query Optimization"] },
   { category: "Tools", items: ["Git", "GitHub", "CI/CD", "Entity Framework", "Code Review", "Debugging"] },
-  { category: "Focus Areas", items: ["API Design", "Performance Optimization", "Scalable Architecture", "Agile"] },
+  { category: "Focus Areas", items: ["API Design", "Performance Optimization", "Scalable Architecture", "Agile", "Data Structures"] },
 ];
 
 export const ACHIEVEMENTS = [
@@ -34,7 +37,7 @@ export const EXPERIENCE = [
     title: "Back End Developer",
     company: "Supersourcing",
     location: "Indore, India",
-    period: "June 2025 – Present",
+    period: "January 2026 – Present",
     current: true,
     bullets: [
       "Independently developed and enhanced a production-grade .NET Web API backend for enterprise clients, owning complete backend architecture, APIs, and SQL Server databases — maintaining 99.9% uptime.",
@@ -42,25 +45,21 @@ export const EXPERIENCE = [
       "Led performance upgrades across the stack, reducing production incidents and downtime by 30%.",
       "Architected RESTful APIs following best practices for security, scalability, and maintainability.",
       "Collaborated with UI/UX teams, developers, and clients to translate requirements into robust solutions.",
-       "Developed and maintained APIs and backend services using .NET and MERN stack for client-facing applications.",
+    ],
+  },
+  {
+    title: "Trainee – Full Stack Developer",
+    company: "Easyrewardz Software Services",
+    location: "Gurugram, India",
+    period: "Jun 2025 – Dec 2025",
+    current: false,
+    bullets: [
+      "Developed and maintained APIs and backend services using .NET and MERN stack for client-facing applications.",
       "Built responsive and intuitive frontend features using React.js.",
       "Resolved complex full-stack bugs, reducing average bug resolution time by 25%.",
       "Collaborated in an Agile environment to deliver features; mentored junior developers.",
     ],
   },
-  // {
-  //   title: "Trainee – Full Stack Developer",
-  //   company: "Easyrewardz Software Services",
-  //   location: "Gurugram, India",
-  //   period: "Jun 2025 – Dec 2025",
-  //   current: false,
-  //   bullets: [
-  //     "Developed and maintained APIs and backend services using .NET and MERN stack for client-facing applications.",
-  //     "Built responsive and intuitive frontend features using React.js.",
-  //     "Resolved complex full-stack bugs, reducing average bug resolution time by 25%.",
-  //     "Collaborated in an Agile environment to deliver features; mentored junior developers.",
-  //   ],
-  // },
 ];
 
 export const EDUCATION = {
@@ -71,6 +70,7 @@ export const EDUCATION = {
 };
 
 export const CERTIFICATIONS = [
+  "Prompt Engineering Hands On – Mastering AI Prompting Techniques",
   "The Web Developer Bootcamp 2025 – Full-stack development comprehensive training",
   "Project Management: Predictive and Adaptive Approach – Agile & Waterfall methodologies",
 ];

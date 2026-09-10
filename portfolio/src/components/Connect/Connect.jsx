@@ -9,6 +9,8 @@ const CONTACT_ITEMS = [
   { label: "LinkedIn", value: PERSONAL_INFO.linkedinDisplay, href: PERSONAL_INFO.linkedin, icon: "in" },
   { label: "GitHub", value: PERSONAL_INFO.githubDisplay, href: PERSONAL_INFO.github, icon: "gh" },
   { label: "Phone", value: PERSONAL_INFO.phone, href: `tel:${PERSONAL_INFO.phone.replace(/\s/g, "")}`, icon: "☎" },
+  { label: "LeetCode", value: PERSONAL_INFO.leetcodeDisplay, href: PERSONAL_INFO.leetcode, icon: "lc" },
+  // { label: "Resume", value: "View Resume", href: PERSONAL_INFO.resume, icon: "📄" }
 ];
 
 const INITIAL_FORM = { name: "", email: "", message: "" };

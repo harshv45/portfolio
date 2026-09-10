@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { NAV_LINKS } from "../../data/portfolioData";
+import { NAV_LINKS, PERSONAL_INFO } from "../../data/portfolioData";
 import styles from "./Navbar.module.css";
 
 export default function Navbar({ active }) {
@@ -13,6 +13,12 @@ export default function Navbar({ active }) {
   }, []);
 
   const scrollTo = (id) => {
+    if (id === "Resume") {
+      window.open(PERSONAL_INFO.resume, "_blank", "noopener,noreferrer");
+      setMenuOpen(false);
+      return;
+    }
+
     document.getElementById(id.toLowerCase())?.scrollIntoView({ behavior: "smooth" });
     setMenuOpen(false);
   };
