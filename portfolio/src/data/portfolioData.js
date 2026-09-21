@@ -13,7 +13,7 @@ export const PERSONAL_INFO = {
   githubDisplay: "github.com/harshv45",
   leetcode: "https://leetcode.com/u/harshvardhansingh451112/",
   leetcodeDisplay: "leetcode.com/harshvardhansingh451112",
-  resume: "https://drive.google.com/file/d/1au6nCiwXu49IBqA9ebiXeK_25dCOOqdY/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1VtQ9yNrVyVzTofvRnHRCLSsTh-n1g5De/view?usp=drive_link",
 };
 
 export const SKILLS = [
@@ -37,7 +37,7 @@ export const EXPERIENCE = [
     title: "Back End Developer",
     company: "Supersourcing",
     location: "Indore, India",
-    period: "January 2026 – Present",
+    period: "June 2025 – Present",
     current: true,
     bullets: [
       "Independently developed and enhanced a production-grade .NET Web API backend for enterprise clients, owning complete backend architecture, APIs, and SQL Server databases — maintaining 99.9% uptime.",
@@ -45,21 +45,25 @@ export const EXPERIENCE = [
       "Led performance upgrades across the stack, reducing production incidents and downtime by 30%.",
       "Architected RESTful APIs following best practices for security, scalability, and maintainability.",
       "Collaborated with UI/UX teams, developers, and clients to translate requirements into robust solutions.",
-    ],
-  },
-  {
-    title: "Trainee – Full Stack Developer",
-    company: "Easyrewardz Software Services",
-    location: "Gurugram, India",
-    period: "Jun 2025 – Dec 2025",
-    current: false,
-    bullets: [
       "Developed and maintained APIs and backend services using .NET and MERN stack for client-facing applications.",
       "Built responsive and intuitive frontend features using React.js.",
       "Resolved complex full-stack bugs, reducing average bug resolution time by 25%.",
       "Collaborated in an Agile environment to deliver features; mentored junior developers.",
     ],
   },
+  // {
+  //   title: "Trainee – Full Stack Developer",
+  //   company: "Easyrewardz Software Services",
+  //   location: "Gurugram, India",
+  //   period: "Jun 2025 – Dec 2025",
+  //   current: false,
+  //   bullets: [
+  //     "Developed and maintained APIs and backend services using .NET and MERN stack for client-facing applications.",
+  //     "Built responsive and intuitive frontend features using React.js.",
+  //     "Resolved complex full-stack bugs, reducing average bug resolution time by 25%.",
+  //     "Collaborated in an Agile environment to deliver features; mentored junior developers.",
+  //   ],
+  // },
 ];
 
 export const EDUCATION = {
@@ -79,7 +83,7 @@ export const PROJECTS = [
   {
     name: "Anvirx",
     stack: ["React.js", "Tanstack", "Supabase"],
-    period: "june 2026",
+    period: "June 2026",
     description: "A web application built for a BPO hiring and outsourcing client to improve online brand visibility and streamline candidate acquisition workflows.",
     highlights: ["React + TypeScript frontend","RESTful API backend", "Supabase for authentication and database"],
     github: "",
